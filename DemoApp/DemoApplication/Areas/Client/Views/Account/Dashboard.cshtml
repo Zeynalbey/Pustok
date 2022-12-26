@@ -8,11 +8,11 @@
         <div class="welcome mb-20">
             <p>
 
-                Hello, <strong>@userService.GetCurrentUserFullName()</strong>
+                Hello, <strong>@userService.GetCurrentUserFullName() </strong>
                 </strong>
-@*                <a href="login-register.html" class="logout">
-                    Logout
-                </a>*@
+                <a asp-route="client-auth-logout">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </a>
             </p>
 
         </div>
